@@ -18,11 +18,11 @@ function sayHiToGrandma(string) {
   // var uppercase = "HELLO!"
   // uppercase.toUpperCase() === uppercase
   var lowercase = 'hello!'
-  lowercase.toLowerCase() === lowercase
+  //lowercase.toLowerCase() === lowercase
   // var mixedCase = 'Hi there!'
   // mixedCase.toLowerCase() === mixedCase
   // mixedCase.toUpperCase() === mixedCase 
-  if (string === lowercase) {
+  if (string.toLowerCase() === lowercase) {
     return "I can\'t hear you!"
 
   }
